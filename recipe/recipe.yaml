@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: coldtype-fontgoggles
-  version: 1.8.4.7
+  version: "1.9.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/coldtype_fontgoggles-${{ version }}.tar.gz
-  sha256: c8ae9225029c1504909f70da4e89177477bd6faa2eb84ba5028c2595f4edb6db
+  sha256: aaad5851c32fca8e6e340d3cddf4b629680cee74b5008ba4b4a0f3e72a951c0a
 
 build:
   number: 0
