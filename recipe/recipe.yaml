@@ -36,7 +36,9 @@ tests:
       imports:
         - fontgoggles
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: coldtype-fontgoggles is a PyPI-enabled version of the main library for the FontGoggles application.
